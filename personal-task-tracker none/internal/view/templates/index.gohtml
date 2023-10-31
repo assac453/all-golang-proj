@@ -1,0 +1,35 @@
+{{define "index"}}
+<html>
+<head>
+    <title>tasks</title>
+    <meta charset="UTF-8"/>
+    <script src="/static/htmx.min.js"></script>
+    <script src="/static/task.js"></script>
+    <link rel=stylesheet href="/static/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+</head>
+<body hx-boost="true">
+<section>
+    <h1>tasks</h1>
+    <label>Search <input type="text"
+                         name="search" placeholder="Begin Typing To Search"
+                         hx-get="/tasks"
+                         hx-trigger="keyup changed delay:500ms, search"
+                         hx-target="#tasks"
+                         hx-replace="innerHTML"
+        ></label>
+
+    <form hx-post="/tasks/sort" hx-trigger="end" class="sortable" id="tasks">
+        {{template "tasks" .}}
+    </form>
+    
+    <form method="post" action="/tasks">
+        <label>Description <input type="text" minlength="3" name="description" autofocus/></label>
+    </form>
+</section>
+</body>
+</html>
+{{end}}

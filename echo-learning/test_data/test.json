@@ -1,0 +1,124 @@
+{
+    "example@mail.ru": {
+        "name": "John Silver",
+        "email": "example@mail.ru",
+        "pass": "somepass",
+        "todo": [
+            {
+                "title": "Frogs",
+                "description": "love frogs",
+                "status": "in progress"
+            },
+            {
+                "title": "Study",
+                "description": "some study",
+                "status": "done"
+            }
+        ]
+    },
+    "some@mail.ru": {
+        "name": "Sam Nigk",
+        "email": "some@mail.ru",
+        "pass": "123456",
+        "todo": []
+    },
+    "test1@mail.com": {
+        "name": "Alice Smith",
+        "email": "test1@mail.com",
+        "pass": "testpass1",
+        "todo": [
+            {
+                "title": "Shopping",
+                "description": "buy groceries",
+                "status": "not started"
+            }
+        ]
+    },
+    "test2@mail.com": {
+        "name": "Bob Johnson",
+        "email": "test2@mail.com",
+        "pass": "testpass2",
+        "todo": [
+            {
+                "title": "Workout",
+                "description": "go to the gym",
+                "status": "in progress"
+            },
+            {
+                "title": "Read Book",
+                "description": "finish novel",
+                "status": "not started"
+            }
+        ]
+    },
+    "test3@mail.com": {
+        "name": "Emma Davis",
+        "email": "test3@mail.com",
+        "pass": "testpass3",
+        "todo": []
+    },
+    "test4@mail.com": {
+        "name": "Michael Wilson",
+        "email": "test4@mail.com",
+        "pass": "testpass4",
+        "todo": [
+            {
+                "title": "Project",
+                "description": "complete project tasks",
+                "status": "in progress"
+            },
+            {
+                "title": "Call Mom",
+                "description": "catch up with mom",
+                "status": "done"
+            }
+        ]
+    },
+    "test5@mail.com": {
+        "name": "Olivia Johnson",
+        "email": "test5@mail.com",
+        "pass": "testpass5",
+        "todo": [
+            {
+                "title": "Travel",
+                "description": "plan vacation",
+                "status": "not started"
+            }
+        ]
+    },
+    "test6@mail.com": {
+        "name": "William Brown",
+        "email": "test6@mail.com",
+        "pass": "testpass6",
+        "todo": []
+    },
+    "test7@mail.com": {
+        "name": "Sophia Martinez",
+        "email": "test7@mail.com",
+        "pass": "testpass7",
+        "todo": [
+            {
+                "title": "Home Renovation",
+                "description": "paint living room",
+                "status": "done"
+            },
+            {
+                "title": "Exercise",
+                "description": "do yoga",
+                "status": "in progress"
+            }
+        ]
+    },
+    "test8@mail.com": {
+        "name": "James Taylor",
+        "email": "test8@mail.com",
+        "pass": "testpass8",
+        "todo": [
+            {
+                "title": "Cooking",
+                "description": "try new recipe",
+                "status": "not started"
+            }
+        ]
+    }
+}
